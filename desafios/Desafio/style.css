@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Funnel+Display:wght@300..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0Px;
+}
+
+header {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 46px;
+    font-family: 'Delius', cursive;
+    color: #ffff;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: white;
+    font-family: 'Funnel Display', sans-serif;
+    text-align: center;
+
+}
+
