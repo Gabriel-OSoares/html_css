@@ -28,3 +28,16 @@ header p {
 
 }
 
+footer { 
+    height: 100px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Funnel Display', sans-serif;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
