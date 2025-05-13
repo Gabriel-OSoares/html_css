@@ -7,22 +7,23 @@
     padding: 0Px;
 }
 
-html, body{
+html,
+body {
     background-color: darkgray;
     min-height: 100vh;
 
 }
 
 header {
-    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+
 }
 
-header h1{
-    font-size: 46px;
+header h1 {
+    font-size: 3em;
     font-variant: small-caps;
     font-family: 'Delius', cursive;
     color: #ffff;
@@ -33,17 +34,17 @@ header h1{
 header p {
     color: white;
     font-family: 'Funnel Display', sans-serif;
-    text-align: center;
 
 }
 
-header a{
+header a {
     color: white;
     text-decoration: none;
     font-weight: negrito;
 }
 
-header a:hover, footer a:hover{
+header a:hover,
+footer a:hover {
     text-decoration: underline;
 }
 
@@ -52,6 +53,12 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Funnel Display', sans-serif;
+    font-size: 1.7em;
+}
+
+section>p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -60,24 +67,37 @@ section.normal {
 }
 
 section.imagem {
- background-color: darkgrey;
- color: white;
+    background-color: rgba(54, 54, 54, 0.815);
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.685);
 }
 
-section.imagem > p {
+section.imagem>p {
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.452);
+    background-color: rgba(0, 0, 0, 0.568);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.658);
+    background-size: cover;
+    
 }
 
-footer { 
+section#img01 {
+    background-image: url(../img/background001.jpg);
+    background-position: right center;
+
+}
+
+section#img02 {
+    background-image: url(../img/background002.jpg);
+}
+
+footer {
     height: 50px;
-    margin-top: 20px;
+    padding-top: 20px;
     background-color: black;
     color: white;
     font-family: 'Funnel Display', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 footer p {
@@ -86,6 +106,5 @@ footer p {
 
 footer a {
     color: white;
-    text-decoration: none ;
+    text-decoration: none;
 }
-
